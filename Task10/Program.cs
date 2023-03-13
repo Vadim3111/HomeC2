@@ -1,6 +1,6 @@
 ﻿Console.Clear();
-Console.Write("Введите число: ");
+Console.Write("Введите 3-значное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-while(n > 1000)
-    n = n/10;
-Console.WriteLine(n%10);
+int n1 = n / 10;
+int n2 = n1 % 10;
+Console.WriteLine(n2);
